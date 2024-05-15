@@ -31,9 +31,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            GreetingCard("Phạm Tiến Minh - PH32719")
+//            GreetingCard("Phạm Tiến Minh - PH32719")
 
-//            CounterCard()
+            CounterCard()
         }
     }
 }
@@ -55,9 +55,9 @@ fun MessageCard(msg: String) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    GreetingCard("Phạm Tiến Minh - PH32719")
+//    GreetingCard("Phạm Tiến Minh - PH32719")
 
-//    CounterCard()
+    CounterCard()
 }
 
 @Composable
